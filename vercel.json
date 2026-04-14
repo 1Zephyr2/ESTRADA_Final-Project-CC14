@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "create-react-app",
+  "installCommand": "cd estrada-final_project && npm install",
+  "buildCommand": "cd estrada-final_project && npm run build",
+  "outputDirectory": "estrada-final_project/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
